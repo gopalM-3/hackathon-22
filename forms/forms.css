@@ -1,0 +1,39 @@
+a:hover {
+    color: #64e3ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.ContactUs {
+    width: auto;
+}
+
+.ContactContainer {
+    width: 100%;
+    margin-left: 24.5%;
+}
+
+@media screen and (max-width: 1050px) {
+    .ContactContainer {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ContactContainer {
+        margin-left: 0px;
+    }
+
+    .ContactUs {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .ContactContainer {
+        margin-left: 0px;
+    }
+    .ContactUs {
+        width: auto;
+    }
+}
